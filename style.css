@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, Verdana, Helvetica, sans-serif;
+    /* font-family: Georgia, Garamond, 'Times New Roman', serif; */
+    /* font-family: "Lucida Console", "Courier New", "Monaco", monospace; */
+    /* font-family: "Lucida Handwriting", "Bradley Hand", "Comic Sans", cursive; */
+    /* font-family: Copperplate, Papyrus, Impact, "Jazz LET", fantasy; */
+}
+
+h2 {
+    text-decoration: underline;
+}
+img {
+    width: 500px;
+    height: auto;
+    /* height: 350px; */
+}
+
+ul.larger {
+    font-size: 16px;
+}
+
+ol.fancy {
+    list-style-type: lower-alpha;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+ul {
+/* .unordered { */
+    /* font-family: "Lucida Handwriting", "Bradley Hand", "Comic Sans", cursive; */
+    font-family: "Lucida Console", "Courier New", "Monaco", monospace;
+    font-size: 14px;
+}
+
+ol {
+/* .ordered { */
+    /* font-family: "Lucida Console", "Courier New", "Monaco", monospace; */
+    /* font-size: 12px; */
+    /* font-family: "Lucida Handwriting", "Bradley Hand", "Comic Sans", cursive; */
+    /* font-size: 15px; */
+    font-family: Georgia, Garamond, 'Times New Roman', serif;
+    font-size: 15px;
+}
+
+/*
+     https://www.w3.org/Style/Examples/007/fonts.en.html 
+Serif	Times New Roman
+        Georgia
+        Garamond
+Sans-serif	Arial
+            Verdana
+            Helvetica
+            Tahoma
+            Trebuchet MS
+Monospace	Courier New
+            Lucida Console
+            Monaco
+Cursive	    Brush Script MT
+            Lucida Handwriting
+            Bradley Hand
+            Comic Sans
+Fantasy	    Copperplate
+            Papyrus
+            Impact
+            Jazz LET
+
+*/
