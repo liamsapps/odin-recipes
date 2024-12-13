@@ -1,46 +1,182 @@
+/* this was the changed !!!!!! */
+ * {
+    /* outline: 1px solid red; */
+    /* margin: 0px; */
+    /* padding: 0px;  */
+    /* margin: 20px; */
+    margin-left: 10px;
+}*/
+   
+
 body {
     font-family: Arial, Verdana, Helvetica, sans-serif;
+    width: 800px;
+    /* to center */
+    /* width: 500px;
+    margin: 0px auto; */
+    /* to reset CSS */
+    /* padding: 0px;
+    margin: 0px; */
     /* font-family: Georgia, Garamond, 'Times New Roman', serif; */
     /* font-family: "Lucida Console", "Courier New", "Monaco", monospace; */
     /* font-family: "Lucida Handwriting", "Bradley Hand", "Comic Sans", cursive; */
     /* font-family: Copperplate, Papyrus, Impact, "Jazz LET", fantasy; */
 }
 
+h1 {
+    text-align: center;
+}
+
 h2 {
     text-decoration: underline;
 }
+
+/* .meatball h2 {
+    text-align: center;
+} */
+
+p {
+    width: 90%;
+    /* margin: 20px; */
+    line-height: 150%;
+}
+
+/* p, ul, ol {
+    line-height: 150%;
+} */
+
 img {
-    width: 500px;
+    width: 700px;
     height: auto;
     /* height: 350px; */
-}
-
-ul.larger {
-    font-size: 16px;
-}
-
-ol.fancy {
-    list-style-type: lower-alpha;
-    font-size: 14px;
-    font-style: italic;
-    font-weight: bold;
+    /* to center image */
+    display: block;
+    margin: 0px auto;
 }
 
 ul {
-/* .unordered { */
     /* font-family: "Lucida Handwriting", "Bradley Hand", "Comic Sans", cursive; */
     font-family: "Lucida Console", "Courier New", "Monaco", monospace;
     font-size: 14px;
+    line-height: 150%;
 }
 
 ol {
-/* .ordered { */
     /* font-family: "Lucida Console", "Courier New", "Monaco", monospace; */
     /* font-size: 12px; */
     /* font-family: "Lucida Handwriting", "Bradley Hand", "Comic Sans", cursive; */
     /* font-size: 15px; */
     font-family: Georgia, Garamond, 'Times New Roman', serif;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+/* ul.larger {
+    font-size: 16px;
+} */
+
+ol.fancy {
+    list-style-type: lower-alpha;
     font-size: 15px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.whole {
+    width: 100%;
+}
+
+.top {
+    /* width: 100%; */
+    width: 75%;
+    height: auto;
+    /* width: 50%; */
+    margin: 0px auto;
+}
+
+.description {
+    width: 90%;
+}
+
+
+/* .description {
+    width: 40%;
+    display: inline-block;
+    needed to align tops of divs side-by-side 
+    vertical-align: top;  
+} */
+
+/* .description.meatball,
+.ingredients.meatball,
+.description.fajitas {
+    width: 100%;
+} */
+
+.ingredients {
+    width: 45%;
+    display: inline-block;
+    /* margin-top: 10px; */
+}
+
+.ingredients.pasta {
+    width: 100%;
+}
+
+.ingredients .meatballs {
+    width: 40%;
+    display: inline-block;
+}
+
+.ingredients .sauce {
+    display: inline-block;
+    width: 40%;
+    /* height: 200px; */
+    vertical-align: top;
+    /* box-sizing: border-box; */
+}
+
+/* how to position div next to meatballs, but under sauce??? NO WORK */
+.ingredients .pasta {
+    display: inline-block;
+    /* width: 50%; */
+    /* vertical-align: top; */
+    /* NO WORK, puts next to sauce, not under it, like I want */
+    /* position: absolute; */
+    /* position: relative; */
+    /* float: right; */
+    /* vertical-align: top; */
+    /* box-sizing: border-box; */
+}
+
+.steps {
+    width: 90%;
+}
+
+.steps .meatballs,
+.steps .sauce,
+.steps .pasta {
+    width: 90%;
+}
+
+.description.fajitas {
+    width: 100%;
+}
+
+.ingredients.fajitas {
+    width: 41%;
+    display: inline-block;
+}
+
+.steps.fajitas {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.description.penne {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
 }
 
 /*
