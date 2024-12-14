@@ -118,26 +118,38 @@ ol.fancy {
     /* margin-top: 10px; */
 }
 
-.ingredients.pasta {
-    width: 100%;
+.ingredients.meal {
+    width: 90%;
+    display: flex;
 }
 
 .ingredients .meatballs {
-    width: 40%;
-    display: inline-block;
+    width: 35%;
+    /* display: inline-block; */
+    flex: 1;
 }
 
-.ingredients .sauce {
-    display: inline-block;
-    width: 40%;
+.stacked {
+    width: 55%;
+}
+/* .ingredients .sauce { */
+.stacked .sauce {
+    /* display: inline-block; */
+    display: block;
+    width: 100%;
     /* height: 200px; */
-    vertical-align: top;
+    /* vertical-align: top; */
     /* box-sizing: border-box; */
 }
 
 /* how to position div next to meatballs, but under sauce??? NO WORK */
-.ingredients .pasta {
-    display: inline-block;
+/* .ingredients .pasta { */
+.stacked .pasta {
+    display: block;
+    width: 100%;
+
+    /* display: inline-block; */
+
     /* width: 50%; */
     /* vertical-align: top; */
     /* NO WORK, puts next to sauce, not under it, like I want */
